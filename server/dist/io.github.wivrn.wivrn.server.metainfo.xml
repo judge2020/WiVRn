@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="console-application">
+	<id>io.github.wivrn.wivrn.server</id>
+	<name>WiVRn headless server</name>
+	<metadata_license>FSFAP</metadata_license>
+	<project_license>GPL-3.0-or-later</project_license>
+	<summary>Stream PC VR games to a standalone headset from the command line</summary>
+	<description>
+		<p>WiVRn streams virtual reality applications from a Linux computer to a standalone VR headset.</p>
+		<p>The headless server provides the OpenXR runtime and streaming service without requiring the graphical dashboard. It can be started from the command line or managed through the WiVRn systemd user service.</p>
+		<p>Install the WiVRn dashboard for graphical server configuration, headset pairing, and client installation.</p>
+	</description>
+	<developer id="io.github.wivrn.wivrn">
+		<name>Guillaume Meunier, Patrick Nicolas et al</name>
+	</developer>
+	<provides>
+		<binary>wivrn-server</binary>
+	</provides>
+	<categories>
+		<category>Game</category>
+		<category>Network</category>
+	</categories>
+	<keywords>
+		<keyword>VR</keyword>
+		<keyword>Virtual reality</keyword>
+		<keyword>OpenXR</keyword>
+		<keyword>OpenVR</keyword>
+	</keywords>
+	<url type="homepage">https://wivrn.github.io</url>
+	<url type="vcs-browser">https://github.com/WiVRn/WiVRn</url>
+	<url type="bugtracker">https://github.com/WiVRn/WiVRn/issues</url>
+	<content_rating type="oars-1.1" />
+</component>

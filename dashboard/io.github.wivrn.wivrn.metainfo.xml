@@ -39,6 +39,16 @@
 	</branding>
 
 	<launchable type="desktop-id">io.github.wivrn.wivrn.desktop</launchable>
+	<provides>
+		<binary>wivrn-dashboard</binary>
+	</provides>
+
+	<keywords>
+		<keyword>VR</keyword>
+		<keyword>Virtual reality</keyword>
+		<keyword>OpenXR</keyword>
+		<keyword>OpenVR</keyword>
+	</keywords>
 
 	<categories>
 		<category>Game</category>

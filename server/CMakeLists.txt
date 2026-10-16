@@ -288,6 +288,8 @@ if (WIVRN_BUILD_SERVER)
 		DESTINATION lib/firewalld/services)
 
 	install(TARGETS wivrn-server)
+	install(FILES dist/io.github.wivrn.wivrn.server.metainfo.xml
+		DESTINATION ${CMAKE_INSTALL_DATADIR}/metainfo)
 endif()
 
 if (WIVRN_BUILD_SERVER_LIBRARY)
